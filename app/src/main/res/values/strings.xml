@@ -4,6 +4,13 @@
     //MainTitle
     <string name="MainTitle">Workout Zone</string>
 
+    //BicepExercises
+    <string name="CableBicepCurl">Cable Bicep Curl</string>
+    <string name="DumbbellBicepCurl">Dumbbell Bicep Curl</string>
+    <string name="HammerCurl">Hammer Curl</string>
+    <string name="SeatedDumbbellCurl">Seated Dumbbell Curl</string>
+    <string name="PreacherCurl">Preacher Curl</string>
+
     //ChestExercises
     <string name="CableCrossoverFly">Cable Crossover Fly</string>
     <string name="SingleArmCableCrossover">Single Arm Cable Crossover</string>

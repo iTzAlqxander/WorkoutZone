@@ -1,19 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Bicep">
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="0dp">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/BicepTitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        tools:context=".Bicep">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/BicepTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/pcbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/pcbutton"
+            app:layout_constraintVertical_bias="0.507"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/sdcbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/sdcbutton"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/hcbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/hcbutton"
+            app:layout_constraintVertical_bias="0.447" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:elevation="3dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/dpcbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/dpcbutton"
+            app:layout_constraintVertical_bias="0.582" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:layout_marginBottom="39dp"
+            android:elevation="3dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/cbcbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cbcbutton"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/cbcbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="16dp"
+            android:checkable="false"
+            android:elevation="1dp"
+            android:text="@string/CableBicepCurl"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/dpcbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/DumbbellBicepCurl"
+            android:textAlignment="viewStart"
+            android:textSize="13.4sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cbcbutton" />
+
+        <Button
+            android:id="@+id/hcbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/HammerCurl"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dpcbutton" />
+
+        <Button
+            android:id="@+id/sdcbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/SeatedDumbbellCurl"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hcbutton" />
+
+        <Button
+            android:id="@+id/pcbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/PreacherCurl"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.645"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sdcbutton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
