@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.workoutzone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorkoutZone">
+        <activity
+            android:name=".CableLateralRaise"
+            android:exported="false" />
+        <activity
+            android:name=".DumbbellRearDeltRaise"
+            android:exported="false" />
+        <activity
+            android:name=".DumbbellFrontRaise"
+            android:exported="false" />
+        <activity
+            android:name=".DumbbellShoulderRaise"
+            android:exported="false" />
+        <activity
+            android:name=".DumbbellShoulderPress"
+            android:exported="false" />
+        <activity
+            android:name=".Abs"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleSelect"
+            android:exported="false" />
+        <activity
+            android:name=".Calf"
+            android:exported="false" />
+        <activity
+            android:name=".LowerBack"
+            android:exported="false" />
+        <activity
+            android:name=".Forearm"
+            android:exported="false" />
+        <activity
+            android:name=".Hamstring"
+            android:exported="false" />
+        <activity
+            android:name=".Glute"
+            android:exported="false" />
+        <activity
+            android:name=".Trapezius"
+            android:exported="false" />
+        <activity
+            android:name=".Shoulder"
+            android:exported="false" />
+        <activity
+            android:name=".Chest"
+            android:exported="false" />
+        <activity
+            android:name=".Back"
+            android:exported="false" />
+        <activity
+            android:name=".Quadricep"
+            android:exported="false" />
+        <activity
+            android:name=".Tricep"
+            android:exported="false" />
+        <activity
+            android:name=".Bicep"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Workout Zone</string>
+
+    //MainTitle
+    <string name="MainTitle">Workout Zone</string>
+
+    //ShoulderExercises
+    <string name="DumbbellShoulderPress">Dumbbell Shoulder Press</string>
+    <string name="DumbbellShoulderRaise">Dumbbell Shoulder Raise</string>
+    <string name="DumbbellFrontRaise">Dumbbell Front Raise</string>
+    <string name="DumbbellRearDeltRaise">Dumbbell Rear Delt Raise</string>
+    <string name="CableLateralRaise">Cable Lateral Raise</string>
+
+    //OtherTitles
+    <string name="BicepTitle">Bicep</string>
+    <string name="TricepTitle">Tricep</string>
+    <string name="QuadricepTitle">Quadricep</string>
+    <string name="ChestTitle">Chest</string>
+    <string name="BackTitle">Back</string>
+    <string name="ShoulderTitle">Shoulder</string>
+    <string name="AbsTitle">Abs</string>
+    <string name="TrapeziusTitle">Trapezius</string>
+    <string name="GluteTitle">Glute</string>
+    <string name="HamstringTitle">Hamstring</string>
+    <string name="ForearmTitle">Forearm</string>
+    <string name="LowerBackTitle">Lower Back</string>
+    <string name="CalfTitle">Calf</string>
+
+    //ImageHuman
+    <string name="ImageHuman">Human</string>
+
+    //BicepButton
+    <string name="buttonBicep">Bicep</string>
+    //TricepButton
+    <string name="buttonTricep">Tricep</string>
+    //QuadricepButton
+    <string name="buttonQuadricep">Quadricep</string>
+    //BackButton
+    <string name="buttonBack">Back</string>
+    //ChestButton
+    <string name="buttonChest">Chest</string>
+    //ShoulderButton
+    <string name="buttonShoulder">Shoulder</string>
+    //MainActivityButton
+    <string name="buttonContinue">Continue</string>
+    //AbsButton
+    <string name="buttonAbs">Abs</string>
+    //TrapeziusButton
+    <string name="buttonTrapezius">Trapezius</string>
+    //HamstringButton
+    <string name="buttonHamstring">Hamstring</string>
+    //ForearmButton
+    <string name="buttonForearm">Forearm</string>
+    //LowerBackButton
+    <string name="buttonLowerBack">Lower Back</string>
+    //CalfButton
+    <string name="buttonCalf">Calf</string>
+    //GluteButton
+    <string name="buttonGlute">Glute</string>
+
+</resources>
