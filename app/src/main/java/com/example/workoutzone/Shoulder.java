@@ -18,7 +18,7 @@ public class Shoulder extends AppCompatActivity {
         Button DumbbellRearDeltRaise = findViewById(R.id.drrbutton);
         Button DumbbellShoulderPress = findViewById(R.id.dspbutton);
         Button DumbbellShoulderRaise = findViewById(R.id.dsrbutton);
-
+//hi
         CableLateralRaise.setOnClickListener(v -> changeActivityclr());
 
         DumbbellFrontRaise.setOnClickListener(v -> changeActivitydfr());
