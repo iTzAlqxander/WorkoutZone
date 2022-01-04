@@ -11,7 +11,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".Shoulder">
 
         <TextView
@@ -32,9 +32,9 @@
             android:layout_height="48dp"
             android:layout_marginStart="328dp"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="@+id/clrbutton"
+            app:layout_constraintBottom_toBottomOf="@+id/dfbutton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/clrbutton"
+            app:layout_constraintTop_toTopOf="@+id/dfbutton"
             app:layout_constraintVertical_bias="0.507"
             tools:ignore="DuplicateSpeakableTextCheck" />
 
@@ -44,9 +44,9 @@
             android:layout_height="48dp"
             android:layout_marginStart="328dp"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="@+id/drrbutton"
+            app:layout_constraintBottom_toBottomOf="@+id/dbpbutton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/drrbutton"
+            app:layout_constraintTop_toTopOf="@+id/dbpbutton"
             app:layout_constraintVertical_bias="0.492" />
 
         <CheckBox
@@ -55,9 +55,9 @@
             android:layout_height="48dp"
             android:layout_marginStart="328dp"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="@+id/dfrbutton"
+            app:layout_constraintBottom_toBottomOf="@+id/bbpbutton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/dfrbutton"
+            app:layout_constraintTop_toTopOf="@+id/bbpbutton"
             app:layout_constraintVertical_bias="0.447" />
 
         <CheckBox
@@ -67,9 +67,9 @@
             android:layout_marginStart="328dp"
             android:elevation="3dp"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="@+id/dsrbutton"
+            app:layout_constraintBottom_toBottomOf="@+id/saccbutton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/dsrbutton"
+            app:layout_constraintTop_toTopOf="@+id/saccbutton"
             app:layout_constraintVertical_bias="0.582" />
 
         <CheckBox
@@ -80,13 +80,13 @@
             android:layout_marginBottom="39dp"
             android:elevation="3dp"
             android:textSize="48sp"
-            app:layout_constraintBottom_toBottomOf="@+id/dspbutton"
+            app:layout_constraintBottom_toBottomOf="@+id/crfbutton"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/dspbutton"
+            app:layout_constraintTop_toTopOf="@+id/crfbutton"
             app:layout_constraintVertical_bias="1.0" />
 
         <Button
-            android:id="@+id/dspbutton"
+            android:id="@+id/crfbutton"
             android:layout_width="270dp"
             android:layout_height="115dp"
             android:layout_marginTop="16dp"
@@ -102,7 +102,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
         <Button
-            android:id="@+id/dsrbutton"
+            android:id="@+id/saccbutton"
             android:layout_width="270dp"
             android:layout_height="115dp"
             android:layout_marginTop="12dp"
@@ -113,10 +113,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.644"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dspbutton" />
+            app:layout_constraintTop_toBottomOf="@+id/crfbutton" />
 
         <Button
-            android:id="@+id/dfrbutton"
+            android:id="@+id/bbpbutton"
             android:layout_width="270dp"
             android:layout_height="115dp"
             android:layout_marginTop="8dp"
@@ -127,10 +127,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.644"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dsrbutton" />
+            app:layout_constraintTop_toBottomOf="@+id/saccbutton" />
 
         <Button
-            android:id="@+id/drrbutton"
+            android:id="@+id/dbpbutton"
             android:layout_width="270dp"
             android:layout_height="115dp"
             android:layout_marginTop="16dp"
@@ -141,10 +141,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.644"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/dfrbutton" />
+            app:layout_constraintTop_toBottomOf="@+id/bbpbutton" />
 
         <Button
-            android:id="@+id/clrbutton"
+            android:id="@+id/dfbutton"
             android:layout_width="270dp"
             android:layout_height="115dp"
             android:layout_marginTop="8dp"
@@ -155,7 +155,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.645"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/drrbutton" />
+            app:layout_constraintTop_toBottomOf="@+id/dbpbutton" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

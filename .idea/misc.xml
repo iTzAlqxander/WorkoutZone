@@ -4,12 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_cable_lateral_raise.xml" value="0.33" />
+        <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_chest.xml" value="0.25" />
         <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_dumbbell_front_raise.xml" value="0.121875" />
         <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_dumbbell_rear_delt_raise.xml" value="0.121875" />
         <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_dumbbell_shoulder_press.xml" value="0.121875" />
         <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_dumbbell_shoulder_raise.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_muscleselect.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_shoulder.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/amasz/Android Studio Projects/WorkoutZone/app/src/main/res/layout/activity_shoulder.xml" value="0.25" />
         <entry key="..\:/Users/itzal/AndroidStudioProjects/WorkoutZone/app/src/main/res/layout/activity_abs.xml" value="0.2644927536231884" />
         <entry key="..\:/Users/itzal/AndroidStudioProjects/WorkoutZone/app/src/main/res/layout/activity_back.xml" value="0.28804347826086957" />
         <entry key="..\:/Users/itzal/AndroidStudioProjects/WorkoutZone/app/src/main/res/layout/activity_bicep.xml" value="0.28804347826086957" />

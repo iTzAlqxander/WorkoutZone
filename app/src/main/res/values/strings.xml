@@ -4,6 +4,13 @@
     //MainTitle
     <string name="MainTitle">Workout Zone</string>
 
+    //ChestExercises
+    <string name="CableCrossoverFly">Cable Crossover Fly</string>
+    <string name="SingleArmCableCrossover">Single Arm Cable Crossover</string>
+    <string name="BarbellBenchPress">Barbell Bench Press</string>
+    <string name="DumbbellBenchPress">Dumbbell Bench Press</string>
+    <string name="DumbbellFly">Dumbbell Fly</string>
+
     //ShoulderExercises
     <string name="DumbbellShoulderPress">Dumbbell Shoulder Press</string>
     <string name="DumbbellShoulderRaise">Dumbbell Shoulder Raise</string>
