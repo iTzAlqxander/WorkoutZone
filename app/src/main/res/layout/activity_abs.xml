@@ -1,20 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Abs">
+    android:layout_height="wrap_content"
+    android:elevation="2dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="0dp">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/AbsTitle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        tools:context=".Bicep">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AbsTitle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/BicepTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/rtbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/rtbutton"
+            app:layout_constraintVertical_bias="0.507"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lrbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/lrbutton"
+            app:layout_constraintVertical_bias="0.492" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/atmbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/atmbutton"
+            app:layout_constraintVertical_bias="0.447" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:elevation="3dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/cmbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cmbutton"
+            app:layout_constraintVertical_bias="0.582" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="328dp"
+            android:layout_marginBottom="39dp"
+            android:elevation="3dp"
+            android:textSize="48sp"
+            app:layout_constraintBottom_toBottomOf="@+id/acmbutton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/acmbutton"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/acmbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="16dp"
+            android:checkable="false"
+            android:elevation="1dp"
+            android:text="@string/AbCrunchMachine"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/cmbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/CrunchMachine"
+            android:textAlignment="viewStart"
+            android:textSize="13.4sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/acmbutton" />
+
+        <Button
+            android:id="@+id/atmbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/AbTwistMachine"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cmbutton" />
+
+        <Button
+            android:id="@+id/lrbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/LegRaise"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/atmbutton" />
+
+        <Button
+            android:id="@+id/rtbutton"
+            android:layout_width="270dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/RussianTwist"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.645"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lrbutton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

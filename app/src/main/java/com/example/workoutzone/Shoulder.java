@@ -13,11 +13,11 @@ public class Shoulder extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoulder);
 
-        Button CableLateralRaise = findViewById(R.id.pcbutton);
-        Button DumbbellFrontRaise = findViewById(R.id.hcbutton);
-        Button DumbbellRearDeltRaise = findViewById(R.id.sdcbutton);
-        Button DumbbellShoulderPress = findViewById(R.id.cbcbutton);
-        Button DumbbellShoulderRaise = findViewById(R.id.dpcbutton);
+        Button CableLateralRaise = findViewById(R.id.rtbutton);
+        Button DumbbellFrontRaise = findViewById(R.id.atmbutton);
+        Button DumbbellRearDeltRaise = findViewById(R.id.lrbutton);
+        Button DumbbellShoulderPress = findViewById(R.id.acmbutton);
+        Button DumbbellShoulderRaise = findViewById(R.id.cmbutton);
 
         CableLateralRaise.setOnClickListener(v -> changeActivityclr());
 

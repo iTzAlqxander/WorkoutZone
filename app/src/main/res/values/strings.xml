@@ -4,6 +4,20 @@
     //MainTitle
     <string name="MainTitle">Workout Zone</string>
 
+    //QuadExercises
+    <string name="JumpSquat">Jump Squat</string>
+    <string name="BackSquat">Back Squat</string>
+    <string name="FrontSquat">Front Squat</string>
+    <string name="DumbbellLunge">Dumbbell Lunge</string>
+    <string name="DumbbellBulgarianSplitSquad">Dumbbell Bulgarian Split Squad</string>
+
+    //AbExercises
+    <string name="AbCrunchMachine">Ab Crunch Machine</string>
+    <string name="CrunchMachine">Crunch Machine</string>
+    <string name="AbTwistMachine">Ab Twist Machine</string>
+    <string name="LegRaise">Leg Raise</string>
+    <string name="RussianTwist">Russian Twist</string>
+
     //BicepExercises
     <string name="CableBicepCurl">Cable Bicep Curl</string>
     <string name="DumbbellBicepCurl">Dumbbell Bicep Curl</string>
